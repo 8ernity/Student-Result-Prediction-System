@@ -1,22 +1,41 @@
 # 🎓 Student Result Prediction System
 
-## 📌 Description
-This project predicts whether a student will Pass or Fail based on:
+## 📌 Overview
+This Machine Learning project predicts whether a student will PASS or FAIL
+based on academic factors such as:
+
 - Study Hours
-- Attendance
+- Attendance Percentage
 - Previous Marks
 
-## 🤖 Machine Learning Model
+The model is trained using Logistic Regression.
+
+---
+
+## 🧠 ML Workflow
+
+1. Data Loading
+2. Data Preprocessing
+3. Train-Test Split
+4. Model Training
+5. Model Evaluation
+6. Real-time Prediction
+
+---
+
+## 🤖 Model Used
 - Logistic Regression
 
-## 📊 Libraries Used
-- Pandas
-- Scikit-learn
+---
 
-## ▶ How to Run
+## 📊 Evaluation Metrics
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
 
-1. Install dependencies:
-   pip install pandas scikit-learn
+---
 
-2. Run:
-   python model.py
+## 📦 Installation
+
+```bash
+pip install -r requirements.txt
